@@ -7,7 +7,7 @@ function getRandomInt(min, max) {
 
 async function rand(){
     await setTimeout(()=>{
-        document.querySelector('p').innerHTML=getRandomInt(1,1000);
+        document.querySelector('p').innerHTML=getRandomInt(1,98);
         n++;
     }, time);
 
